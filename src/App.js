@@ -17,6 +17,18 @@ const lekcje = [{nr: 1, godzina: '8:00-8:45', pn: "PAD-2/2 KM 507", w: "wf-2/2 Z
               {nr: 8,godzina: "14:05-14:50", pn: "", w: "", s: "", c: "", pt: ""},
               {nr: 9,godzina: "14:55-15:40", pn: "", w: "", s: "", c: "", pt: ""},];
 
+
+/*
+  Nazwa Funkcji:          App
+  Parametry Wejściowe:    brak
+  Wartośc Zwracana:       Div posiadający header poziomu 1 oraz div z całym planem lekcji
+                          w formie tabeli
+  Informacje:             Funkcja tworzy headera 1 poziomu oraz tworzy nowego diva,
+                          w którym przywoływane są komponenty "Naglowek" raz oraz "PlanLekcji"
+                          dla każdego wiersza planu lekcji, podając po poszczególnym elemencie
+                          w const array'u "lekcje"
+  Autor:                  52316316733
+*/
 function App() {
   return (
     <div className="App">
